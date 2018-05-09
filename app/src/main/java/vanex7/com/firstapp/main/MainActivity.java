@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import vanex7.com.firstapp.R;
+import vanex7.com.firstapp.activity.ExpandableListViewActivity;
 import vanex7.com.firstapp.activity.ListViewActivity;
-import vanex7.com.firstapp.activity.TestActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,9 +32,8 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.main_listView);
 
         entryList = new ArrayList<>();
-        entryList.add(new Entry("Test", TestActivity.class));
         entryList.add(new Entry("ListView", ListViewActivity.class));
-        entryList.add(new Entry("ExpandableListView", null));
+        entryList.add(new Entry("ExpandableListView", ExpandableListViewActivity.class));
 
         listView.setAdapter(new MyAdapter(MainActivity.this, entryList));
     }
