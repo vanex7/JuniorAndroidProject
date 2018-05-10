@@ -18,6 +18,7 @@ import java.util.List;
 import vanex7.com.firstapp.R;
 import vanex7.com.firstapp.activity.ExpandableListViewActivity;
 import vanex7.com.firstapp.activity.ListViewActivity;
+import vanex7.com.firstapp.activity.ViewFlipperActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         entryList = new ArrayList<>();
         entryList.add(new Entry("ListView", ListViewActivity.class));
         entryList.add(new Entry("ExpandableListView", ExpandableListViewActivity.class));
+        entryList.add(new Entry("ViewFlipper", ViewFlipperActivity.class));
 
         listView.setAdapter(new MyAdapter(MainActivity.this, entryList));
     }

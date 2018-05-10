@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ViewFlipper
+        android:id="@+id/activity_viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/anim_viewflipper_right_in"
+        android:outAnimation="@anim/anim_viewflipper_right_out">
+
+        <include layout="@layout/avtivity_viewflipper_item_1" />
+
+        <include layout="@layout/avtivity_viewflipper_item_2" />
+
+        <include layout="@layout/avtivity_viewflipper_item_3" />
+
+        <include layout="@layout/avtivity_viewflipper_item_4" />
+
+
+    </ViewFlipper>
+
+</LinearLayout>
