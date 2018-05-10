@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toast_btn_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NORMAL" />
+
+    <Button
+        android:id="@+id/toast_btn_long_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="long Time" />
+
+    <Button
+        android:id="@+id/toast_btn_show_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show at center" />
+
+    <Button
+        android:id="@+id/toast_btn_show_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Bottom" />
+
+    <Button
+        android:id="@+id/toast_btn_show_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show top" />
+
+    <Button
+        android:id="@+id/toast_btn_blend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blend" />
+
+</LinearLayout>

@@ -19,6 +19,7 @@
         <activity android:name=".activity.ListViewActivity"/>
         <activity android:name=".activity.ExpandableListViewActivity" />
         <activity android:name=".activity.ViewFlipperActivity" />
+        <activity android:name=".activity.ToastActivity" />
     </application>
 
 </manifest>
